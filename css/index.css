@@ -1,0 +1,159 @@
+
+ div{
+   width: 100%;
+}
+#bk{ 
+    background:url(../images/bkImg3.jpg) no-repeat center fixed ;
+    background-color: rgba(0,0,0,0.5);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   
+   
+}
+        /*Nabar */
+.bkColor{
+    background-color:rgba(0,0,0,0.5)!important;
+}
+nav{
+    position: fixed!important;
+    width: 100%;
+    background-color:transparent!important;
+    border: none!important;
+    
+}
+navbar-brand{
+   font-family: 'Kaushan Script', cursive!important;
+}
+.navbar-right li{
+    transition: all 0.5s;
+}
+.navbar-right li:hover{
+    font-size: 20px;
+}
+.active{
+    font-size: 20px;
+    text-shadow: 3px 4px 5px rgba(255,255,255,0.5);
+}
+nav button{
+    transition: all 0.5s;
+}
+
+nav button:hover{ 
+    color:gray!important;
+}
+
+nav button:active
+{background-color:#202020!important;
+    }
+
+    /*End of Navbar*/
+/*Home Section*/
+ 
+.ychm{
+    max-width: 50%;
+    margin: auto;
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 3px 5px 5px rgba(0,0,0,0.5);
+   
+}
+.inline{
+    
+    display: inline-block;
+    align-content: center;
+     
+}
+.mrg{
+    margin-top:440px;
+}
+.hollow{
+    border: 2px solid!important;
+    box-shadow: 0px 0px 5px rgba(255,255,255,0.9);
+    width: 140px;
+    background-color: transparent;
+    color:white;
+    transition: all 0.5s;
+}
+.hollow:hover{
+   box-shadow: rgba(255,255,255,0.7);
+    background-color: transparent;
+    font-size: 12px;
+    width: 130px;
+}
+
+.hollow:active{
+    color: white;
+}
+.wht{
+    color:white!important;
+}
+ul a{
+    color:white!important;
+    transition: all 0.5s;
+}
+ul a:hover{
+    font-size: 20px!important;
+    text-shadow: 3px 4px 5px rgba(255,255,255,0.5);
+    background-color: black;
+}
+#homeSec a{
+transition: all 0.5s ease-in; }
+#homeSec a:hover{
+    font-size: 14px;
+    text-shadow: 5px 5px 6px rgba(255,255,255,0.5);
+}
+/*End of Home Section*/
+section{
+  width: 100%!important;
+    overflow-x: hidden;
+    display: inline-block;
+    
+}
+
+
+/*About section*/
+#aboutSec{
+    clear:both;
+   
+    color:#202040;
+    height: 400px;
+    font-family: 'Roboto', sans-serif;
+}
+#aboutSec div{
+    width: 50%;
+    margin: auto;
+}
+#aboutSec h1{
+    padding-top:100px; 
+    
+}
+#aboutSec p{
+    padding-top:20px;
+   font-size: 22px;
+    padding: inherit
+        
+}
+
+/*End of About Section*/
+/*Contact Section*/
+#contactSec{
+    background: url(../images/contact2.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+    color: white;
+    height: 600px;
+}
+#contactSec h1{
+    padding-top:100px; 
+}
+/*End of Contact Section*/
+/*Team Section*/
+#teamSec{
+    background-color: white;
+    height: 500px;
+}
+/*End of Team Section*/

@@ -1,0 +1,7 @@
+body > div{
+    margin-top: 50px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+input[type="checkbox"]{
+    width: 155px;
+}

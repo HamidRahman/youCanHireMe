@@ -1,0 +1,38 @@
+body{
+    overflow-x: hidden;
+}
+#filterSec{
+    background-color: #202020;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.5);
+}
+form input{
+    color: aliceblue!important;
+}
+
+#filter{
+  width:50%;
+    padding-top: 50px;
+    margin: auto;
+}
+input[type=checkbox]{
+    padding: 10px 0 10px 0!important;
+}
+#search{
+    padding-top: 30px;
+    transition: all 1s;
+}
+
+ 
+input[type=search]{
+    color: black!important;
+    padding-left: 35px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 21px;
+} 
+/*List section*/
+.card{
+    box-shadow: 0 6px 6px rgba(0,0,0,0.6);
+    color: white;
+    background: #202020;
+}
